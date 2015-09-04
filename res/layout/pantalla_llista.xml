@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/capsalera_llista"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+		<ImageView 
+		android:id="@+id/canvi_llista_esquerra"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/left_arrow"
+		android:layout_alignParentLeft="true"
+		/>
+
+		<TextView
+		android:id="@+id/titol_llista"
+		android:text="llista"
+		android:textSize="15dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		/>
+
+		<ImageView 
+		android:id="@+id/canvi_llista_dreta"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"		
+		android:src="@drawable/right_arrow"
+		android:layout_alignParentRight="true"
+		/>
+
+	</RelativeLayout>
+
+
+
+
+
+	<ViewFlipper
+	android:id="@+id/main_flipper"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_below="@id/capsalera_llista">
+
+		<include android:id="@+id/llista1" layout="@layout/llista1"/>
+		<include android:id="@+id/llista2" layout="@layout/llista2"/>
+
+	</ViewFlipper>
+
+
+
+</RelativeLayout>
+

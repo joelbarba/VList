@@ -1,0 +1,426 @@
+!SESSION 2013-02-12 20:00:42.297 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -data /media/DISK3/PROGRAMES PROPIS/Android/VList -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-02-12 20:06:05.797
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:06:05.798
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-02-12 20:06:05.801
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:06:05.801
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 1000 2013-02-12 20:06:05.802
+!MESSAGE Some sites could not be found.  See the error log for more detail.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:06:05.802
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:06:05.802
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-02-12 20:09:34.666
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:09:34.667
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-02-12 20:09:34.668
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:09:34.668
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 1000 2013-02-12 20:09:34.673
+!MESSAGE Some sites could not be found.  See the error log for more detail.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:09:34.673
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:09:34.673
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/.
+!SESSION 2013-02-12 20:12:23.344 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-02-12 20:14:19.548
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:14:19.549
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:14:45.784
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-02-12 20:16:02.693
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://download.eclipse.org/technology/epp/packages/indigo/artifacts.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:189)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.getLocalFile(SimpleArtifactRepositoryFactory.java:65)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepositoryFactory.load(SimpleArtifactRepositoryFactory.java:76)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:69)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:749)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:171)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:95)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:69)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:749)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:651)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:96)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:216)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:84)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:44)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:230)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:179)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:346)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:227)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2013-02-12 20:16:02.696
+!MESSAGE Unable to read repository at http://download.eclipse.org/technology/epp/packages/indigo/artifacts.xml.
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:179)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:346)
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:227)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2013-02-12 20:18:51.433 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-02-12 20:23:02.695
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-02-12 20:23:10.290 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-02-12 20:24:29.554
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:82)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:24:29.555
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-02-12 20:24:41.727
+!MESSAGE No repository found at http://download.eclipse.org/technology/babel/update-site/R0.9.0/indigo.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-12 20:25:36.308
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2013-02-12 20:25:36.308
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.308
+!MESSAGE "Android DDMS" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.308
+!MESSAGE "Android Hierarchy Viewer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.308
+!MESSAGE "Tracer for OpenGL ES" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.308
+!MESSAGE "Android Development Tools" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.308
+!MESSAGE "Android Traceview" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.308
+!MESSAGE "Android Native Development Tools" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-12 20:25:36.321
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2013-02-12 20:25:36.321
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.321
+!MESSAGE "Android DDMS" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.321
+!MESSAGE "Android Hierarchy Viewer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.321
+!MESSAGE "Tracer for OpenGL ES" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.321
+!MESSAGE "Android Development Tools" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.321
+!MESSAGE "Android Traceview" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:25:36.321
+!MESSAGE "Android Native Development Tools" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-12 20:26:13.286
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2013-02-12 20:26:13.286
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.286
+!MESSAGE "Android DDMS" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.286
+!MESSAGE "Android Development Tools" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.286
+!MESSAGE "Android Hierarchy Viewer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.286
+!MESSAGE "Android Traceview" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.286
+!MESSAGE "Tracer for OpenGL ES" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.286
+!MESSAGE "Android Native Development Tools" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-12 20:26:13.288
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2013-02-12 20:26:13.288
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.288
+!MESSAGE "Android DDMS" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.288
+!MESSAGE "Android Development Tools" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.288
+!MESSAGE "Android Hierarchy Viewer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.288
+!MESSAGE "Android Traceview" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.288
+!MESSAGE "Tracer for OpenGL ES" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:26:13.288
+!MESSAGE "Android Native Development Tools" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.ui 4 4 2013-02-12 20:27:05.987
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-02-12 20:27:28.734 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-12 20:29:09.019
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2013-02-12 20:29:09.019
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2013-02-12 20:29:09.020
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2013-02-12 20:29:09.020
+!MESSAGE "C/C++ Development Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2013-02-12 20:29:09.020
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-02-12 20:29:09.020
+!MESSAGE org.eclipse.wb.ercp.feature.feature.group [1.0.0.r37x201106081556] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-12 20:29:09.036
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2013-02-12 20:29:09.036
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2013-02-12 20:29:09.036
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2013-02-12 20:29:09.036
+!MESSAGE "C/C++ Development Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2013-02-12 20:29:09.036
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2013-02-12 20:29:09.036
+!MESSAGE org.eclipse.wb.ercp.feature.feature.group [1.0.0.r37x201106081556] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.ui 4 4 2013-02-12 20:30:35.363
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-02-12 20:30:36.804 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.scout.sdk 1 0 2013-02-12 20:30:49.512
+!MESSAGE org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	Starting SCOUT SDK Plugin.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-12 20:34:57.035
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2013-02-12 20:34:57.035
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.035
+!MESSAGE "Android DDMS" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.035
+!MESSAGE "Android Hierarchy Viewer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.035
+!MESSAGE "Tracer for OpenGL ES" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.035
+!MESSAGE "Android Development Tools" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.035
+!MESSAGE "Android Traceview" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2013-02-12 20:34:57.039
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10050 2013-02-12 20:34:57.039
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.039
+!MESSAGE "Android DDMS" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.039
+!MESSAGE "Android Hierarchy Viewer" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.039
+!MESSAGE "Tracer for OpenGL ES" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.039
+!MESSAGE "Android Development Tools" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:34:57.039
+!MESSAGE "Android Traceview" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.ui 4 4 2013-02-12 20:36:09.548
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-02-12 20:36:14.177 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2013-02-12 20:36:48.361
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2013-02-12 20:36:48.362
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.362
+!MESSAGE "Android DDMS" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.362
+!MESSAGE "Android Hierarchy Viewer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.362
+!MESSAGE "Tracer for OpenGL ES" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.362
+!MESSAGE "Android Traceview" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.362
+!MESSAGE "Android Native Development Tools" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2013-02-12 20:36:48.365
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2013-02-12 20:36:48.365
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.365
+!MESSAGE "Android DDMS" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.365
+!MESSAGE "Android Hierarchy Viewer" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.365
+!MESSAGE "Tracer for OpenGL ES" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.365
+!MESSAGE "Android Traceview" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2013-02-12 20:36:48.365
+!MESSAGE "Android Native Development Tools" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.ui 4 4 2013-02-12 20:37:19.507
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-02-12 20:37:21.483 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.scout.sdk 1 0 2013-02-12 20:39:44.950
+!MESSAGE org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	Starting SCOUT SDK Plugin.
+
+!ENTRY org.eclipse.ui 4 4 2013-02-12 20:41:27.521
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-02-12 20:44:47.691 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ca_ES
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-02-12 20:49:03.079
+!MESSAGE Invalid preference page path: XML Syntax
